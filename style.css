@@ -1,0 +1,161 @@
+.h1 {
+	text-align: center;
+	color: white;
+	background: white;
+
+}
+
+body {
+	/**background: cover;
+	background-image: url('sf-background-blur copy.jpg');**/
+	background-color:white;
+	background-image:
+	radial-gradient(midnightblue 9px, transparent 10px),        
+	repeating-radial-gradient(midnightblue 0, midnightblue 4px, transparent 5px, transparent 20px, midnightblue 21px, midnightblue 25px, transparent 26px, transparent 50px);    
+	background-size: 30px 30px, 90px 90px; 
+	background-position: 0 0;
+}
+
+.board {
+	width: 312px;
+	height: 312px;
+	z-index: 1;
+	margin-top: 75px;
+	border: 6px solid midnightblue;
+	background: white;
+}
+
+.wrapper {
+	width: 330px;
+	margin: 0 auto;
+
+}
+
+.button {
+	background-color: white;
+	width: 160px;
+	margin: 0 auto;
+	margin-top: 20px;
+	border: 6px solid white;
+	padding: 5px;
+}
+
+button {
+	float: left;
+
+}
+
+.row {
+	clear: both;
+}
+
+#box1, #box2, #box4, #box5 {
+	border-right: 6px solid midnightblue;
+	border-bottom: 6px solid midnightblue;
+	
+}
+
+#box3, #box6 {
+	border-bottom: 6px solid midnightblue;
+}
+
+#box7 {
+	border-right: 6px solid midnightblue;
+}
+
+#box9 {
+	border-left: 6px solid midnightblue;
+}
+
+#box1 {
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+
+#box2 {
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+
+#box3 {
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+
+#box4 {
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+
+#box5 {
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+
+#box6 {
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+
+#box7 {
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+ #box8 { 
+ 	width: 100px;
+ 	height: 100px;
+ 	float: left;
+ }
+
+#box9 {
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+
+.blue {
+	/**background-color: #f5f5f5;**/
+	font-size: 100px;
+	text-align: center;
+	padding: 0 auto;
+	margin: 0 auto;
+	background-color: rgba(255,215,0, .75);
+}
+
+.orange {
+	/**background-color: #696969 ;**/
+	font-size: 125px;
+	text-align: center;
+	color: white;
+	padding: 0 auto;
+	background-color: rgba(25,25,112, .75);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
